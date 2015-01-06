@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+html, body{
+	height:100%;
+}
+.wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -0px;
+	padding: 0 0 20px;
+}
+.footer {
+	min-height: 20px;
+	margin: auto;
+}
