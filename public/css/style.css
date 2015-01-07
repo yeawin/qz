@@ -1,6 +1,7 @@
 @CHARSET "UTF-8";
 html, body{
 	height:100%;
+	font-family: "Helvetica Neue", "Microsoft YaHei", Helvetica, Arial, sans-serif;
 }
 .wrap {
 	min-height: 100%;
@@ -8,7 +9,24 @@ html, body{
 	margin: 0 auto -0px;
 	padding: 0 0 20px;
 }
+.item{
+	border:1px solid #ddd;
+	padding-left:15px;
+	margin-bottom:15px;
+}
+.brief{
+	margin:0px;
+}
 .footer {
 	min-height: 20px;
 	margin: auto;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.foot-link{
+	margin:5px;
 }
