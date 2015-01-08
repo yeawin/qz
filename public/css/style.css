@@ -3,6 +3,11 @@ html, body{
 	height:100%;
 	font-family: "Helvetica Neue", "Microsoft YaHei", Helvetica, Arial, sans-serif;
 }
+.logo{
+	background:url(/qz/images/logo.png);
+	width:100px;
+	height:45px;
+}
 .wrap {
 	min-height: 100%;
 	height: auto;
