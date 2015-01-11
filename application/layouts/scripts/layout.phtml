@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,6 +25,7 @@
   </head>
 
   <body>
+    <div class="wrap">
 	<nav class="navbar navbar-inverse" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -40,23 +39,11 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">首页</a></li>
-            <li><a href="#international">国贸</a></li>
-            <li><a href="#domestic">内贸</a></li>
-            <li><a href="#technology">技术</a></li>
-            <li><a href="/qz/about">合作</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">下拉菜单 <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
+            <li class="active"><a href="/qz">首页</a></li>
+            <li><a href="/qz/international">国贸</a></li>
+            <li><a href="/qz/domestic">内贸</a></li>
+            <li><a href="/qz/technology">技术</a></li>
+            <li><a href="/qz/cooperation">合作</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><img src="/qz/images/email.png" class="img-responsive"></a></li>
@@ -86,10 +73,12 @@
 
     <?php echo $this->layout()->content;?>
     
-     <hr>
+
+     </div>
       <!-- Site footer -->
-     <div id="footer" class="container">
-        <div class="footer">
+     <div id="footer" class="footer">
+          <hr>
+        <div class="container">
         <div class="left text-left">
             <p>&copy; 厦门七智进出口有限公司 2014</p>
             <p>访问 七智陶瓷 在<a href="#">线商店</a>、<a href="#">实体店</a>，或查找在你附近的<a href="#">经销商</a>。</p>

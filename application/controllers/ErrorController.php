@@ -19,13 +19,15 @@ class ErrorController extends Zend_Controller_Action
                 // 404 error -- controller or action not found
                 $this->getResponse()->setHttpResponseCode(404);
                 $priority = Zend_Log::NOTICE;
-                $this->view->message = 'Page not found';
+                $this->view->ErrorCode = '<h1>错误代码：404</h1>';
+                $this->view->ErrorMessage = '<h3>出现该错误的原因是：</h3><p class="lead">所访问的页面不存在或者已经被管理员删除！您可以点击顶部导航栏进入相关栏目或者返回首页。</p>';
                 break;
             default:
                 // application error
                 $this->getResponse()->setHttpResponseCode(500);
                 $priority = Zend_Log::CRIT;
-                $this->view->message = 'Application error';
+                $this->view->ErrorCode = '<h1>错误代码：500</h1>';
+                $this->view->ErrorMessage = '<h3>出现该错误的原因是：</h3><p class="lead">服务器出现了内部错误，您可以稍后访问试试。<br>你在看到这个页面的同时，系统已经收集了产生的错误，并邮件通知管理员，我们会尽快处理！<br>管理员为给你带来的不便致以诚挚的歉意！</p>';
                 break;
         }
         

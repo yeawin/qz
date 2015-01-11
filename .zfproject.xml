@@ -14,6 +14,27 @@
         <controllerFile controllerName="About">
           <actionMethod actionName="index"/>
         </controllerFile>
+        <controllerFile controllerName="International">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="china"/>
+          <actionMethod actionName="service"/>
+          <actionMethod actionName="other"/>
+        </controllerFile>
+        <controllerFile controllerName="Domestic">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="mall"/>
+          <actionMethod actionName="chain"/>
+          <actionMethod actionName="distribution"/>
+        </controllerFile>
+        <controllerFile controllerName="Technology">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="instruction"/>
+          <actionMethod actionName="machinery"/>
+          <actionMethod actionName="other"/>
+        </controllerFile>
+        <controllerFile controllerName="Cooperation">
+          <actionMethod actionName="index"/>
+        </controllerFile>
       </controllersDirectory>
       <formsDirectory enabled="false"/>
       <layoutsDirectory>
@@ -34,6 +55,45 @@
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="About">
             <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="International">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="International">
+            <viewScriptFile forActionName="china"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Domestic">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Domestic">
+            <viewScriptFile forActionName="mall"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Domestic">
+            <viewScriptFile forActionName="chain"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Domestic">
+            <viewScriptFile forActionName="distribution"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Technology">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Technology">
+            <viewScriptFile forActionName="instruction"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Technology">
+            <viewScriptFile forActionName="machinery"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Technology">
+            <viewScriptFile forActionName="other"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Cooperation">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="International">
+            <viewScriptFile forActionName="service"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="International">
+            <viewScriptFile forActionName="other"/>
           </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
         <viewHelpersDirectory/>

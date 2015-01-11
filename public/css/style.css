@@ -3,6 +3,12 @@ html, body{
 	height:100%;
 	font-family: "Helvetica Neue", "Microsoft YaHei", Helvetica, Arial, sans-serif;
 }
+.navbar-inverse{
+	background-color:#303;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+	background-color:#306;
+}
 .logo{
 	background:url(/qz/images/logo.png);
 	width:100px;
@@ -11,8 +17,8 @@ html, body{
 .wrap {
 	min-height: 100%;
 	height: auto;
-	margin: 0 auto -0px;
-	padding: 0 0 20px;
+	margin: 0 auto -101px;
+	padding: 0 0 101px;
 }
 .item{
 	border:1px solid #ddd;
@@ -22,9 +28,17 @@ html, body{
 .brief{
 	margin:0px;
 }
+#footer{
+	background-color:#303;
+	color:#fff;
+}
+#footer a{
+	color:#fff;
+}
 .footer {
 	min-height: 20px;
 	margin: auto;
+	
 }
 .left{
 	float:left;
@@ -34,4 +48,34 @@ html, body{
 }
 .foot-link{
 	margin:5px;
+}
+/***internation***/
+.china-row{
+	margin-bottom:25px;	
+	border:1px solid #ddd;
+	padding:0px 15px;
+	min-height:160px;
+}
+.china-row-left, .china-row-right{
+	width:50%;
+	float:left;
+	min-height:160px;
+	padding:0px 15px;
+	
+}
+.china-row-left{
+	border-right:1px solid #ddd;
+}
+.china-row-btn{
+	position:relative; bottom:5px;left:5px;
+}
+/*****************/
+.map-title{
+	color:#c00;
+	font-weight:bold;
+	width : 100%;
+}
+.line-danger{
+	margin-top:0px;
+	border:1px solid #c00;
 }
