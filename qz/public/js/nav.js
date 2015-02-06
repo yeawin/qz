@@ -13,6 +13,10 @@ $(function(){
 				dropdown = '<li><a href="#">七智</a></li><li><a href="#">业务</a></li><li><a href="#">联系</a></li><li><a href="#">信息</a></li>';
 				break;
 			}
+			case '/qz/about' : {
+				//dropdown = '<li><a href="/qz/domestic/mall">商超</a></li><li><a href="/qz/domestic/chain">连锁</a></li><li><a href="/qz/domestic/distribution">移动分销</a></li>';
+				break;
+			}
 			case '/qz/international' : {
 				dropdown = '<li><a href="/qz/international/china">陶瓷产品</a></li><li><a href="/qz/international/other">其他产品</a></li><li><a href="/qz/international/service">检品服务</a></li>';
 				break;
@@ -21,10 +25,10 @@ $(function(){
 				dropdown = '<li><a href="/qz/domestic/mall">商超</a></li><li><a href="/qz/domestic/chain">连锁</a></li><li><a href="/qz/domestic/distribution">移动分销</a></li>';
 				break;
 			}
-			case '/qz/technology' : {
-				dropdown = '<li><a href="/qz/technology/instruction">说明</a></li><li><a href="/qz/technology/machinery">陶瓷机械</a></li><li><a href="/qz/technology/other">其他</a></li>';
-				break;
-			}
+//			case '/qz/technology' : {
+//				dropdown = '<li><a href="/qz/technology/instruction">说明</a></li><li><a href="/qz/technology/machinery">陶瓷机械</a></li><li><a href="/qz/technology/other">其他</a></li>';
+//				break;
+//			}
 		}
 		$("#drowdown .nav").html(dropdown);
 	});
